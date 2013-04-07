@@ -12,6 +12,7 @@ gem install bundler
 rbenv rehash
 echo 'gem: --no-rdoc --no-ri' >> ~/.gemrc
 brew install sqlite3
+brew install imagemagick
 brew install mysql
 unset TMPDIR
 mysql_install_db --verbose --user=`whoami` --basedir="$(brew --prefix mysql)" --datadir=/usr/local/var/mysql --tmpdir=/tmp
