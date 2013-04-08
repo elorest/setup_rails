@@ -1,6 +1,7 @@
 ruby <(curl -fsSkL raw.github.com/mxcl/homebrew/go)
 brew doctor
 brew update
+brew install apple-gcc42
 brew install rbenv ruby-build
 echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 source ~/.bash_profile
